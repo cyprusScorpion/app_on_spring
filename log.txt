@@ -1,0 +1,1 @@
+Event{id=81, msg='Some event for User 2', date=5 мар. 2019 г., 11:21:47}

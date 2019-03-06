@@ -1,0 +1,6 @@
+Event{id=13, msg='Some event for User 2', date=6 мар. 2019 г., 11:51:26}
+Event{id=190, msg='Some event for User 2', date=6 мар. 2019 г., 11:53:42}
+Event{id=184, msg='Some event for User 2', date=6 мар. 2019 г., 11:53:49}
+Event{id=70, msg='Some event for User 2', date=6 мар. 2019 г., 11:53:55}
+Event{id=22, msg='Some event for User 2', date=6 мар. 2019 г., 11:54:00}
+Event{id=69, msg='Some event for User 2', date=6 мар. 2019 г., 11:54:08}

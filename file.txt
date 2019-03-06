@@ -1,0 +1,17 @@
+/home/cyprusscorpion/Загрузки/com.yet.spring.core/file.txt
+/home/cyprusscorpion/Загрузки/com.yet.spring.core/file.txt
+Event{id=2041906741, msg='Some event for User 2', date=1 мар. 2019 г., 11:52:49}/nEvent{id=863004380, msg='Some event for User 2', date=1 мар. 2019 г., 11:58:25}/nEvent{id=2112329811, msg='Some event for User 2', date=2 мар. 2019 г., 10:20:22}/nEvent{id=2110322992, msg='Some event for User 2', date=2 мар. 2019 г., 10:22:29}
+/nEvent{id=-1424037830, msg='Some event for User 2', date=2 мар. 2019 г., 10:23:47}
+/nEvent{id=1585117783, msg='Some event for User 2', date=2 мар. 2019 г., 10:25:49}
+/nEvent{id=2034588724, msg='Some event for User 2', date=2 мар. 2019 г., 10:27:00}
+/nEvent{id=92, msg='Some event for User 2', date=5 мар. 2019 г., 11:23:48}
+Event{id=147, msg='Some event for User 2', date=5 мар. 2019 г., 11:29:07}
+Event{id=40, msg='Some event for User 2', date=5 мар. 2019 г., 11:29:24}
+Event{id=52, msg='Some event for User 2', date=5 мар. 2019 г., 11:29:34}
+Event{id=139, msg='Some event for User 2', date=5 мар. 2019 г., 11:29:43}
+Event{id=17, msg='Some event for User 2', date=5 мар. 2019 г., 11:29:50}
+Event{id=93, msg='Some event for User 2', date=5 мар. 2019 г., 11:29:56}
+Event{id=178, msg='Some event for User 2', date=5 мар. 2019 г., 11:30:06}
+Event{id=129, msg='Some event for User 2', date=5 мар. 2019 г., 11:56:22}
+Event{id=127, msg='Some event for User 2', date=6 мар. 2019 г., 11:03:16}
+Event{id=185, msg='Some event for User 2', date=6 мар. 2019 г., 11:38:36}
