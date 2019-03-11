@@ -13,22 +13,28 @@
     <import resource="loggers.xml"/>
 
     <bean id="client" class="com.yet.spring.core.beans.Client"
-          c:id="${id}" c:fullName="${name}" p:greeting="${greeting}"/>
+          c:id="${id}" c:fullName="${name}" p:greeting ="#{ systemEnvironment['USER'] }"/>
+        <!--<property name="greeting" value="#{ systemEnvironment['USER'] }"/>
+    </bean>-->
 
     <bean id="event" class="com.yet.spring.core.beans.Event" scope="prototype">
+        <property name="id" value="#{(T(java.lang.Math).random() * 200) + 1}"/>
         <constructor-arg>
             <bean class="java.util.Date"/>
         </constructor-arg>
-        <constructor-arg ref="dateFormat"/>
+        <constructor-arg value=
+                                 "#{T(java.text.DateFormat).getDateTimeInstance()}"/>
+
     </bean>
 
     <bean id="app" class="com.yet.spring.core.App">
-        <constructor-arg ref="client"/>
-        <constructor-arg ref="eventLogger"/>
-        <constructor-arg ref="loggerMap"/>
+        <constructor-arg value="#{client}"/>
+        <constructor-arg value="#{eventLogger}"/>
+        <constructor-arg value="#{loggerMap}"/>
     </bean>
 
-    <bean id="dateFormat" class="java.text.DateFormat" factory-method="getDateTimeInstance"/>
+   <!-- <bean id="dateFormat" class="java.text.DateFormat"
+          factory-method="getDateTimeInstance"/>-->
 
     <bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
         <property name="locations">

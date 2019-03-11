@@ -6,6 +6,7 @@
             http://www.springframework.org/schema/beans/spring-beans.xsd
             http://www.springframework.org/schema/util
             http://www.springframework.org/schema/util/spring-util.xsd">
+
     <bean id="combinedEventLogger"
           class="com.yet.spring.core.loggers.CombinedEventLogger">
         <constructor-arg>
@@ -29,9 +30,12 @@
           init-method="init">
         <constructor-arg value="file3.txt"/>
     </bean>
+
     <bean id="eventLogger" class="com.yet.spring.core.loggers.ConsoleEventLogger"/>
+
     <util:map id="loggerMap">
         <entry key="INFO" value-ref="eventLogger"/>
         <entry key="ERROR" value-ref="combinedEventLogger"/>
     </util:map>
+
 </beans>

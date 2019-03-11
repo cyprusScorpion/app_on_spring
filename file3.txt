@@ -4,3 +4,12 @@ Event{id=184, msg='Some event for User 2', date=6 мар. 2019 г., 11:53:49}
 Event{id=70, msg='Some event for User 2', date=6 мар. 2019 г., 11:53:55}
 Event{id=22, msg='Some event for User 2', date=6 мар. 2019 г., 11:54:00}
 Event{id=69, msg='Some event for User 2', date=6 мар. 2019 г., 11:54:08}
+Event{id=104, msg='Some event for User 2', date=7 мар. 2019 г., 13:52:18}
+Event{id=36, msg='Some event for User 2', date=7 мар. 2019 г., 13:55:25}
+Event{id=165, msg='Some event for User 2', date=7 мар. 2019 г., 13:56:27}
+Event{id=121, msg='Some event for User 2', date=8 мар. 2019 г., 10:12:27}
+Event{id=117, msg='Some event for User 2', date=8 мар. 2019 г., 10:26:06}
+Event{id=168, msg='Some event for User 2', date=9 мар. 2019 г., 11:14:34}
+Event{id=154, msg='Some event for User 2', date=9 мар. 2019 г., 11:46:13}
+Event{id=90, msg='Some event for User 2', date=9 мар. 2019 г., 11:48:51}
+Event{id=28, msg='Some event for User 2', date=11 мар. 2019 г., 10:38:56}

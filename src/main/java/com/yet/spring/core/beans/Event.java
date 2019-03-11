@@ -7,9 +7,10 @@ import java.lang.Math;
 
 public class Event {
   //private int id = new Random().nextInt();
-  private int id = (int) ((Math.random() * 200) + 1);
+  //private int id = (int) ((Math.random() * 200) + 1);
+  private int id;
   private String msg;
-  private Date date;
+  private static Date date;
   private DateFormat df;
 
   public Event() {}
@@ -18,6 +19,7 @@ public class Event {
     this.date = date;
     this.df = df;
   }
+
 
   public int getId() {
     return id;
